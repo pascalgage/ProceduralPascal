@@ -23,9 +23,7 @@ namespace InversionAetB
             b = double.Parse(Console.ReadLine());
 
             //traitement
-            temp = a;
-            a = b;
-            b = temp;
+            Inversion(ref a, ref b);
 
             //Affichage du résultat
             Console.WriteLine("a est égal à:" + a);
