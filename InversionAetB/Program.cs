@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InversionAetB
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -31,14 +31,8 @@ namespace InversionAetB
             Console.WriteLine("a est égal à:" + a);
             Console.WriteLine("b est égal à:" + b);
 
-
-
-
             Console.ReadKey();
         }
-        public static void INVERSION(ref double a, ref double b)
-        {
-
-        }
+        
     }
 }
