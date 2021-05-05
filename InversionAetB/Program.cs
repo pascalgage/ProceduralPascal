@@ -13,7 +13,6 @@ namespace InversionAetB
             double a;
             double b;
 
-            double temp;
 
             //saisie des entrées
             Console.WriteLine("Entrez une valeur pour a :");
