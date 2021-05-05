@@ -33,6 +33,12 @@ namespace InversionAetB
 
             Console.ReadKey();
         }
-        
+        public static void Inversion(ref double _a,ref double _b)
+        {
+            double temp;
+            temp = _a;
+            _a = _b;
+            _b = temp;
+        }
     }
 }
